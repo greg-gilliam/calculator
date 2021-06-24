@@ -1,13 +1,14 @@
 
 body {        
     font-family: 'Titillium Web', sans-serif;
-    background-color: #FFFCFA;
+    background-color: whitesmoke;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
 
 main {
     padding: 30px;
+    background-color: gray;
 }
 
 header {
@@ -32,4 +33,49 @@ h1 {
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+}
+
+#add-btn {
+    background-color: maroon;
+}
+
+#subtract-btn {
+    background-color: maroon;
+}
+
+#multiply-btn {
+    background-color: maroon;
+}
+
+#divide-btn {
+    background-color: maroon;
+}
+
+#subtract-num1 {
+    background-color: salmon;
+}
+
+#subtract-num2 {
+    background-color: salmon;
+}
+
+#add-num1 {
+    background-color: salmon;
+}
+
+#add-num2 {
+    background-color: salmon;
+}
+
+#multiply-num1 {
+    background-color: salmon;
+}
+#multiply-num2 {
+    background-color: salmon;
+}
+#divide-num1 {
+    background-color: salmon;
+}
+#divide-num2 {
+    background-color: salmon;
 }
